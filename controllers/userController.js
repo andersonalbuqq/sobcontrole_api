@@ -5,8 +5,8 @@ const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const config = process.env;
 
-// const passwordTest = /((?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%!]).{6,10})/;
-const passwordTest = /(?=.*[a-z])/;
+const passwordTest = /((?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%!]).{6,10})/;
+// const passwordTest = /(?=.*[a-z])/;
 
 const Createtoken = require("../helpers/create-token");
 
